@@ -85,7 +85,9 @@ header{
    border-radius: 10px;
    display: block;
    border:none;
-   font-family: "Nunito",sans-serif;
+   font-family: "Mulish",sans-serif;
+   animation: moveBanner 1s 0.9s forwards;
+   opacity: 0;
  }
 
  .banner button:hover {
