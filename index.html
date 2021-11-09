@@ -4,10 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <script src="https://kit.fontawesome.com/b6500aa49d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>João Gabriel - Front-end Developer</title>
 </head>
 <body>
+    
+    <div class="container">
+    <div class="hamburguer">
+        <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+        
+          </div>
     <header>
         <div class="img-wrapper">
             <img src="images/bg2.jpg" alt="bg">
@@ -17,9 +28,141 @@
             <p> Front-end Developer</p>
             
             <button>Saiba mais</button>
-        </div>
-    </header>
-
+       </div>
+   </header>
+   <aside class="sidebar">
+    <nav class="nav-link">
+      <ul class="menu">
+        <li class="menu-item"><a href="#" class="menu-link  js-scroll">Home</a></li>
+        <li class="menu-item"><a href="#profissional" class="menu-link js-scroll">Sobre</a></li>
+        <li class="menu-item"><a href="#projetos" class="menu-link js-scroll">Projetos</a></li>
+        <li class="menu-item"><a href="#contato" class="menu-link js-scroll">Contato</a></li>
+        
+      </ul>
+      <div class="social-media">
+        <a href="#"><i class="fa fa-linkedin-square"></i></a>
+        <a href="#"><i class="fa fa-github"></i></a>
+        
+      </div>
+    </nav>
     
+  </aside>
+  
+    <a href="#" id="link-topo">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+  
+  </div>
+  
+  <section class="profissional js-scroll ativo" id="profissional">
+    <div class="container">
+        <h1 class="subtitulo">Profissional</h1>
+        <div class="conteudo">
+            <img src="images/perfil2.jpg" alt="">
+            <p>Sou bacharel em Sistemas de Informação pela Urcamp desde 2015.Em 2021,decidi iniciar minha carreira na área de desenvolvimento web como desenvolver Front-end. Logo abaixo apresento alguns dos projetos já desenvolvidos por mim, a maioria projetos pessoais.</p>
+        </div>
+        <div class="conhecimentos">
+          <h1>Conhecimentos</h1>
+          <div class="icones">
+            <i class="fab fa-html5 fa-2x"></i>
+          <p>HTML</p>
+          <i class="fab fa-css3-alt fa-2x"></i>
+          <p>CSS3</p>
+          <i class="fab fa-js-square fa-2x"></i>
+          <p>Javascript</p>
+          <i class="fab fa-git-alt fa-2x"></i>
+          <p>Git e Github</p>
+          </div>
+          </div>
+       </div>
+    </section>
+    <section class="projetos js-scroll ativo" id="projetos">
+      <div class="container">
+          <h1 class="subtitulo">Projetos</h1>
+      </div>
+      <div class="conteudo_projetos">
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="images/header.jpg" alt="imagem do projeto Maratona" />
+          </div>
+          <div class="card-info">
+            <h2>G8 Arquitetura</h2>
+            <h3>HTML, CSS</h3>
+            <p>Landing Page do escritório de arquitetura G8. </p>
+            <button class="btn">Saiba Mais</button>
+          </div>
+         
+      </div>
+      <div class="card">
+        <div class="card-img-wrapper">
+          <img src="images/logotati.jpg" alt="imagem do projeto Maratona" />
+        </div>
+        <div class="card-info">
+          <h2>Tati Rocha Fotografia</h2>
+          <h3>HTML, CSS,Javascript</h3>
+          <p>Landing Page da fotógrafa Tati Rocha.</p>
+          <button class="btn">Saiba Mais</button>
+        </div>
+       
+    </div>
+    <div class="card">
+        <div class="card-img-wrapper">
+          <img src="images/melhordestino.jpg" alt="imagem do projeto Maratona" />
+        </div>
+        <div class="card-info">
+          <h2>Melhor Destino</h2>
+          <h3>HTML, CSS</h3>
+          <p>Site da agência de turismo Melhor Destino.</p>
+          <button class="btn">Saiba Mais</button>
+        </div>
+       
+    </div>
+       
+</div>
+
+</section>
+
+<section class="sessao-contato" id="contato">
+  <div class="contato-wrapper">
+    <div class="contato-left"></div>
+    <div class="contato-right">
+      <h1>Contato</h1>
+      <p>Entre em contato para conversarmos sobre sua ideia ou projeto.</p>
+      <form>
+        <div class="input-group">
+          <input type="text" class="field" id="nome">
+          <label for="nome" class="field-label">Nome</label>
+        </div>
+        <div class="input-group">
+          <input type="text" class="field" id="email">
+          <label for="email" class="field-label">E-mail</label>
+        </div>
+        <div class="input-group">
+          <textarea class="field" id="mensagem"></textarea>
+          <label for="mensagem" class="field-label">Mensagem</label>
+        </div>
+        <button type="submit" class="btn btn-submit">Enviar</button>
+      </form>
+    </div>
+  </div>
+</section>
+<section class="whatsapp">
+  <div>
+    <a href="https://api.whatsapp.com/send?phone=5553999427224"><img src="images/wa-whatsapp.png" alt="whatsapp logo" srcset=""></a>
+      
+    </div>
+</section>
+<footer><p>João Gabriel Gonçalves &#174 2021 - Todos os direitos reservados.</p></footer>
+
+
+
+
+
+
+   
 </body>
+<script src="js/smooth-scroll.min.js"></script>
+<script src="js/main.js"></script>
+<script src="script.js"></script>
+<script src="js/top.js"></script>
 </html>
