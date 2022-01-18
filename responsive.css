@@ -1,4 +1,4 @@
-@media(max-width:500px){
+@media(min-width:425px) and (max-width:924px){
     .hamburguer{
     
         width: 1rem;
@@ -7,6 +7,9 @@
         z-index:100;
         right: 2rem;
         
+    }
+    .sidebar{
+        width:14rem;
     }
     .profissional img{
         width: 265px;
