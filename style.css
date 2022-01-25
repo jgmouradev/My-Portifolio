@@ -15,7 +15,7 @@ html{
 
 .subtitulo{
   font-family: "Nunito", sans-serif;
-	font-size:32px;
+	font-size:36px;
 	font-weight: bold;
 	letter-spacing: 0.3em;
 	text-transform: uppercase;
@@ -91,7 +91,7 @@ header{
 }
 .banner h1{
     color:white;
-    font-size: 4rem;
+    font-size: 5rem;
     font-family: "Exo", serif;
     font-weight: 400;
     text-shadow: .2rem .3rem 2px rgba(0, 0,0, .4);
@@ -151,7 +151,7 @@ header{
     right: -20rem;
     transition: all 1s;
     z-index: 80;
-    opacity: 0.6;
+    opacity: 0.9;
   }
   
   .show-menu .sidebar {
@@ -224,7 +224,7 @@ header{
     flex-wrap: wrap;
   }
   .profissional img{
-    width: 300px;
+    width: 900px;
     height: 360px;
     border-radius: 15px;
    }
@@ -297,7 +297,7 @@ grid-gap: 40px;
 }
 
 .card{
-  width: 18rem;
+  width: 16rem;
   height: 25rem;
   position: relative;
  
@@ -393,13 +393,22 @@ padding: 30px;
   justify-content: flex-end;
   margin-top: -90px;
 }
-.whatsapp img{
-  width: 3rem;
-  height: 3rem;
-  margin: 15px;
-
+.whatsapp .btn{
+  padding: 10px 15px;
+  margin:20px;
+  border-radius: 15px;
+  border: none;
+  background: #25d366;
+  color: #fff;
+  font-size: 1.25rem;
+  cursor: pointer;
+  
+  
 }
-
+button i{
+  color: #fff;
+  
+}
 
 
 .sessao-contato {
@@ -417,8 +426,10 @@ padding: 30px;
   display: flex;
   box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.5);
   border-top-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
   border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  
 
   
   
@@ -437,6 +448,7 @@ padding: 30px;
   background-color: white;
   padding: 1rem 3rem 4rem 3rem;
   border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
   border-bottom-right-radius: 15px;
   
 }
@@ -473,7 +485,7 @@ padding: 30px;
 .field {
   background: transparent;
   border: none;
-  width: 20rem;
+  width: 25rem;
   font-size: 1.5rem;
   border-bottom: 1px solid black;
   height: 3rem;
@@ -520,7 +532,6 @@ padding: 30px;
   text-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
   box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
 }
-
 #link-topo{
   position: fixed;
   right: 1rem;
@@ -533,8 +544,6 @@ padding: 30px;
   align-items: center;
   color: #000;
   border-radius: .3rem;
-  
-  
 }
 
 .js .js-scroll{

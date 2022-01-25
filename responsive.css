@@ -1,4 +1,7 @@
-@media(min-width:425px) and (max-width:924px){
+
+
+/*****************************Small Devices******************************************/
+@media(min-width:360px) and (max-width:500px){
     .hamburguer{
     
         width: 1rem;
@@ -6,17 +9,36 @@
         position: fixed;
         z-index:100;
         right: 2rem;
-        
-    }
+        margin-top: -20px;
+     }
+     #link-topo{
+         width: 2rem;
+     }
+     .banner h1{
+         font-size: 3rem;
+     }
+     .banner p{
+         font-size: 2rem;
+     }
     .sidebar{
-        width:14rem;
+        width:10rem;
+    }
+    .social-media{
+        bottom: 2rem;
+    }
+    .subtitulo{
+        font-size: 26px;
     }
     .profissional img{
-        width: 265px;
-        height: 255px;
+        width: 180px;
+        height: 220px;
     }
     .profissional .conteudo{
         flex-direction: column;
+    }
+    .conteudo p{
+        padding: 20px;
+        margin: 30px 40px 30px 30px;
     }
     .conhecimentos h1{
         margin-top: 20px;
@@ -35,15 +57,22 @@
     .icones i{
           margin-top: 20px;
       }
+    
+    .card{
+        width: 16rem;
+        height: 20rem;
+    }
     .conteudo_projetos{
         flex-direction: column;
         align-items: center;
     }
     .projetos{
-        height: 220vh;
-        object-fit: cover;
+        height: 235vh;
     }
-    .contato-wrapper{
+    .sessao-contato{
+        height: 150vh;
+    }
+     .contato-wrapper{
         height: 33rem;
         justify-content: center;
 
@@ -52,15 +81,139 @@
         display: none;
     }
     .contato-right{
-        width: 90%;
+        width: 75%;
+        height: 94%;
+        margin: -45px;
         border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
         border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
     }
+    .field{
+        width: 15rem;
+    }
+    .btn-submit {
+        width: 80%;
+        margin-top: 0rem;
+    }
+    .whatsapp{
+        justify-content: center;
+        margin-top: -105px;
+    }
+    
     .footer p{
         text-align: center;
+        padding:12px;
     }
     
-    
+ }
 
+ /*****************************Medium Devices******************************************/
+@media(min-width:500px) and (max-width:1024px){
+    .hamburguer{
+    
+        width: 1rem;
+        height: 1rem;
+        position: fixed;
+        z-index:100;
+        right: 2rem;
+        margin-top: -20px;
+     }
+     #link-topo{
+         width: 2rem;
+     }
+     .banner h1{
+         font-size: 3rem;
+     }
+     .banner p{
+         font-size: 2rem;
+     }
+    .sidebar{
+        width:16rem;
+    }
+    .social-media{
+        bottom: 2rem;
+    }
+    
+    .profissional img{
+        width: 250px;
+        height: 300px;
+    }
+    .profissional .conteudo{
+        flex-direction: column;
+    }
+    .conteudo p{
+        padding: 20px;
+        margin: 30px 40px 30px 30px;
+    }
+    .conhecimentos h1{
+        margin-top: 20px;
+    }
+    .icones{
+        justify-content:space-around;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .icones p{
+        margin: 10px;
+        color: white;
+        text-transform: uppercase;
+      }
+    .icones i{
+          margin-top: 20px;
+      }
+    
+    .card{
+        width: 20rem;
+        height: 20rem;
+    }
+    .conteudo_projetos{
+        flex-direction: column;
+        align-items: center;
+    }
+    .projetos{
+        height: 296vh;
+    }
+    .sessao-contato{
+        height: 150vh;
+    }
+     .contato-wrapper{
+        height: 33rem;
+        justify-content: center;
+
+    }
+    .contato-left{
+        display: none;
+    }
+    .contato-right{
+        width: 80%;
+        height: 94%;
+        margin: -45px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    .field{
+        width: 25rem;
+    }
+    .btn-submit {
+        width: 80%;
+        margin-top: 0rem;
+    }
+    .whatsapp{
+        justify-content: center;
+        margin-top: -105px;
+    }
+    
+    .footer p{
+        text-align: center;
+        padding:20px;
+    }
+    
+ }
+/*****************************Medium Devices******************************************/
+@media(min-width:1025px){
 
 }
