@@ -281,7 +281,6 @@ header{
 
 .projetos{
   width: 100%;
-  height:85vh;
   background:url(images/projetos.jpg);
   background-size:cover;
   padding:40px 0;
@@ -300,6 +299,7 @@ grid-gap: 40px;
   width: 16rem;
   height: 25rem;
   position: relative;
+  cursor: pointer;
  
 }
 .card-img-wrapper{
@@ -413,7 +413,6 @@ button i{
 
 .sessao-contato {
   width: 100%;
-  height: 100vh;
   background-color:#0057a3;
   display: flex;
   align-items: center;
@@ -422,8 +421,8 @@ button i{
 
 .contato-wrapper {
   width: 60%;
-  height: 32rem;
   display: flex;
+  margin:50px;
   box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.5);
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
