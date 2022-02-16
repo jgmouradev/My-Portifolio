@@ -159,7 +159,7 @@
           <textarea class="field" id="message"></textarea>
           <label for="mensagem" class="field-label">Mensagem</label>
         </div>
-        <button type="submit" class="btn btn-submit">Enviar</button>
+        <button type="submit" class="btn btn-submit" onclick="sendMail()">Enviar Mensagem</button>
       </form>
     </div>
   </div>
@@ -175,8 +175,14 @@
 <script src="js/main.js"></script>
 <script src="script.js"></script>
 <script src="js/top.js"></script>
-<script src="https://smtpjs.com/v3/smtp.js"></script>
 <script src="js/email.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function() {
+    emailjs.init("user_fTQ8wwv9BzHM1Qx2cpP7z");
+    })();
+</script>
+
 
 
 </html>
