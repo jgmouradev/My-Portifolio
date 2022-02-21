@@ -79,7 +79,7 @@
     }
     .contato-right{
         width: 75%;
-        height: 98%;
+        height: 88%;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
         border-bottom-left-radius: 15px;
@@ -90,8 +90,8 @@
         width: 12rem;
     }
     .btn-submit {
-        width: 80%;
-        margin-top: 0rem;
+        width: 115%;
+        margin-top: 1rem;
     }
     .whatsapp{
         justify-content: center;
@@ -99,14 +99,9 @@
         background-color:#0057a3;
         
     }
-    .footer{
-        height: 12vh;
-    }
-
-    
     .footer p{
-        padding:16px;
         text-align: center;
+        padding: 10px;
     }
     
  }
