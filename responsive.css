@@ -195,8 +195,8 @@
         width: 12rem;
     }
     .btn-submit {
-        width: 80%;
-        margin-top: 0rem;
+        width: 115%;
+        margin-top: 1rem;
     }
     .whatsapp{
         justify-content: center;
@@ -204,15 +204,11 @@
         background-color:#0057a3;
         
     }
-    .footer{
-        height: 12vh;
-    }
-
-    
     .footer p{
-        padding:16px;
         text-align: center;
+        padding: 10px;
     }
+    
     
  }
 
@@ -276,7 +272,8 @@
     width: 15rem;
 }
 .btn-submit {
-    width: 75%;
+    width: 115%;
+    margin-top: 1rem;
 }
 .whatsapp{
     justify-content: center;
@@ -284,8 +281,9 @@
     background-color:#0057a3;
     
 }
-.footer{
-    height: 8vh;
+.footer p{
+    text-align: center;
+    padding: 10px;
 }
 
 }
