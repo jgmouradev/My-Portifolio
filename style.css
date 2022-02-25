@@ -533,20 +533,6 @@ button i{
   box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
 }
 
-@media (min-width:500px) and (max-width:880px){
-	.contato-wrapper{
-		grid-template-columns: 1fr;
-	}
-	.contato-left{
-    height: 150px;
-    border-bottom-left-radius: 0;
-    border-top-right-radius: 15px;
-	}
-  .contato-right{
-    border-top-right-radius: 0;
-    border-bottom-left-radius: 15px;
-	}
-}
 
 
 

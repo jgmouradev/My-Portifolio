@@ -90,7 +90,7 @@
         width: 12rem;
     }
     .btn-submit {
-        width: 115%;
+        width: 100%;
         margin-top: 1rem;
     }
     .whatsapp{
@@ -105,7 +105,7 @@
     }
     
  }
-
+ /*****************************Medium Devices Layout******************************************/
  @media(min-width:476px) and (max-width:767px){
 
     .hamburguer{
@@ -127,7 +127,7 @@
          font-size: 2rem;
      }
     .sidebar{
-        width:10rem;
+        width:14rem;
     }
     .social-media{
         bottom: 2rem;
@@ -136,8 +136,8 @@
         font-size: 26px;
     }
     .profissional img{
-        width: 180px;
-        height: 220px;
+        width: 245px;
+        height: 265px;
     }
     .profissional .conteudo{
         flex-direction: column;
@@ -165,7 +165,7 @@
       }
     
     .card{
-        width: 16rem;
+        width:20rem;
         height: 20rem;
     }
     .conteudo_projetos{
@@ -175,53 +175,63 @@
     
    
      .contato-wrapper{
-       margin: 40px;
-        justify-content: center;
+      grid-template-columns: 1fr;
 
     }
+
     .contato-left{
-        display: none;
-    }
-    .contato-right{
-        width: 75%;
-        height: 98%;
-        border-top-left-radius: 15px;
+        height: 150px;
+        border-bottom-left-radius: 0;
         border-top-right-radius: 15px;
+        }
+      .contato-right{
+        width: 76%;
+        border-top-right-radius: 0;
         border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px;
-    }
+        }
     
     .field{
-        width: 12rem;
+        width: 18rem;
     }
     .btn-submit {
-        width: 115%;
+        width: 75%;
         margin-top: 1rem;
     }
     .whatsapp{
-        justify-content: center;
-        margin-top: -30px;
+        justify-content:flex-end;
+        margin-top: -45px;
         background-color:#0057a3;
         
     }
     .footer p{
         text-align: center;
-        padding: 10px;
+        padding: 20px;
     }
     
-    
+ }
+
+ @media(min-width:476px) and (max-width:614px){
+    .contato-right{
+        width: 75%;
+    }
+}
+ 
+ @media(min-width:615px) and (max-width:768px){
+     .contato-right{
+         width: 79%;
+     }
  }
 
  
 
  /*****************************Tablet Layout******************************************/
-@media(min-width:768px) and (max-width:1124px){
+@media(min-width:768px) and (max-width:1024px){
     
     #link-topo{
         width: 2rem;
     }
     .banner h1{
-        font-size: 5rem;
+        font-size: 4rem;
         line-height: 6.5rem;
     }
     .banner p{
@@ -237,8 +247,8 @@
     flex-direction: column;
  }
  .profissional img{
-    width: 300px;
-    height: 280px;
+    width: 265px;
+    height: 365px;
 }
 .conteudo p{
     padding: 20px;
@@ -266,24 +276,52 @@
     align-items: center;
 }
  .card{
-     width: 20rem;
+     width: 25rem;
  }
+ .contato-wrapper{
+    grid-template-columns: 1fr;
+}
+.contato-left{
+    height: 150px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 15px;
+}
+  .contato-right{
+      width: 79%;
+     border-top-right-radius: 0;
+    border-bottom-left-radius: 15px;
+}
  .field{
-    width: 15rem;
+    width: 20rem;
 }
 .btn-submit {
-    width: 115%;
-    margin-top: 1rem;
+    width: 75%;
+    margin-top: 1.5rem;
 }
 .whatsapp{
-    justify-content: center;
-    margin-top: -30px;
+    justify-content: end;
+    margin-top: -50px;
     background-color:#0057a3;
     
 }
 .footer p{
     text-align: center;
-    padding: 10px;
+    padding: 22px;
 }
 
 }
+
+@media(min-width:788px) and (max-width:930px){
+    .contato-right{
+       width: 82%;
+    }
+}
+ 
+ @media(min-width:930px) and (max-width:1024px){
+     .contato-right{
+        width: 84%;
+     }
+ }
+
+
+
