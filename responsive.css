@@ -353,4 +353,25 @@
     }
     
 }
+@media(min-width:1441px)and (max-width:2560px){
+    .banner h1{
+        font-size: 7rem;
+    }
+    .conteudo_projetos{
+        justify-content: space-evenly;
+    }
+    .card{
+        width: 22rem;
+    }
+    .contato-wrapper{
+        width: 40%;
+    }
+    .field{
+        width: 25rem;
+    }
+    .footer p{
+        padding: 50px;
+    }
 
+
+}
